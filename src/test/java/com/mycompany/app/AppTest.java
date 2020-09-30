@@ -28,6 +28,15 @@ public class AppTest
             fail("Construction failed.");
         }
     }
+   
+    @Test
+    public void testApp() {
+        try {
+            new App();
+        } catch (Exception e) {
+            fail("failed.");
+        }
+    }
 
     @Test
     public void testAppMain()
